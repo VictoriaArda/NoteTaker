@@ -10,9 +10,9 @@ Create an application that can be used to write, save, and delete notes. This ap
 
 - The following HTML routes are used:
 
-  - GET `/notes` returns the `notes.html` file. ![Screen Shot of /notes path.](/public/assets/img/first.png)
+  - GET `/notes` returns the `notes.html` file. ![Screen Shot of /notes path.](public/assets/img/first.png)
 
-* GET `*` returns the `index.html` file. ![Screen Shot of home page.](/public/assets/img/second.png)
+* GET `*` returns the `index.html` file. ![Screen Shot of home page.](./public/assets/img/second.png)
 
 - The notes are stored in a `db.json` file on the backend. The `fs` module is used to read and write to this file.
 
